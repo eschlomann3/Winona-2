@@ -51,70 +51,56 @@ img { display: block;
 </ul>
 
 
-<title>Winona</title>
-<meta charset="utf-8">
+
+
+<!DOCTYPE html>
+<html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
-  font-size: 22px;
 }
 
 body {
-  margin: 0;
-  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
+  background-color: #9fe8f5
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #9fe8f5;
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.topnav a {
-  float: left;
-  display: block;
-  color: #9fe8f5;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+.container img {vertical-align: middle;}
 
-.topnav a:hover {
-  background-color: #9fe8f5;
-  color: black;
-}
-.content {
-  background-color: #9fe8f5;
-  padding: 10px;
-  height: 100px;
-}
-
-.footer {
-  background-color: #9fe8f5;
-  padding: 10px;
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: #9fe8f5; /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
 }
 </style>
-    </style> 
 </head>
 <body>
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-</div>
+<h4>.......................................................................</h4>
 
-<div class="content">
-  <h2>Winona</h2>
-</div>
-<img src=https://www.iloveinspired.com/wp-content/uploads/2014/09/winona_overview.jpg >
-
-<div class="footer">
-  <p>Winona has many options to do things like eating, hike, kayak,
+<div class="container">
+  <img src="https://www.iloveinspired.com/wp-content/uploads/2014/09/winona_overview.jpg" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <h1>Winona</h1>
+    <p>Winona has many options to do things like eating, hike, kayak,
       and many more. Continue to see all the excitement!</p>
+  </div>
 </div>
+<div class ="footer"></div>
+<p>..................................................................................................................................................</p>
 
 </body>
 </html>
